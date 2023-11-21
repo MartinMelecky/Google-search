@@ -1,57 +1,82 @@
 .tyl input[type=text] {
-    padding: 10px 120px;
-    border-radius: 100px;
-    background-color: #fff;
-    font-weight: 100;
-    margin-top: 30px;
-    width: 50%;
-}
-.showcase {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 150px;
-}
-#navbar {
-    position: static;
+    width: 35%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
     background-color: white;
+    font-weight: 300;
+    margin-top: 16px;
+    border-radius: 2rem;
     color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    flex-wrap: wrap;
-    width: 100%;
     
 }
-#navbar a {
-    color:white;
+.tyl input[text=submit] :hover{
+    background-color: white;
+}
+#navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    color: black;
+}
+#navbar a{
     text-decoration: none;
+    text-wrap: left;
 }
 #navbar ul {
     display: flex;
-    list-style: none;
+    list-style: none; 
+    align-items: center ;
+    padding-left: 30%;
+        
+        
+}
+#navbar ul li {
+    padding:  0.75rem;
+    margin: 0.25rem;
+}
+#showcase{
+    height: 45vh; 
+    color: #ffffff;
+    background-size: 30rem;
     align-items: center;
+    
 }
-
-#navbar ul li a {
-    padding: 2px;
-    margin: 0 0.25rem;
-    font-size: 19px;
+img {
+    width: 350px;
+    margin-left: 500px;
 }
-#navbar a:hover {
-    background-color: yellow;
-    border-radius: 3px;
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: center;
+    height: 80vh;
+    padding-top: 2rem;   
+}
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 38rem;
+    padding-right: 38rem;
+    padding-top: 2rem;
+    
+}
+.btn input[type=submit]{
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
     color: black;
-}
+    font-size: 12px;
+    margin: 11px 4px;
+    padding: 0 8px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 80px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 
-@media only screen and (max-width: 700px) {
-    #navbar ul {
-        margin-top: 1rem;
-    }
 }
-#navbar a {
-    color: white;
-}
-#navbar a:hover{color:black;}
