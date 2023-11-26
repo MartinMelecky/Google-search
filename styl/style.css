@@ -105,7 +105,6 @@ section .main .drak {
 footer {
     background-color: #ccc;
     padding: 3px;
-    padding-bottom:1rem;
     position: fixed;
     left: 0;
     bottom: 0;
