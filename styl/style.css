@@ -1,82 +1,200 @@
-.tyl input[type=text] {
-    width: 35%;
-    padding: 9px 20px;
-    text-align: left;
-    border-radius: 6px;
-    background-color: white;
-    font-weight: 300;
-    margin-top: 16px;
-    border-radius: 2rem;
-    color: black;
-    
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial", sans-serif;
 }
-.tyl input[text=submit] :hover{
-    background-color: white;
-}
-#navbar{
+section {
+    position: relative;
     width: 100%;
-    height: 70px;
     display: flex;
-    justify-content: space-between;
-    background: white;
-    color: black;
-}
-#navbar a{
-    text-decoration: none;
-    text-wrap: left;
-}
-#navbar ul {
-    display: flex;
-    list-style: none; 
-    align-items: center ;
-    padding-left: 30%;
-        
-        
-}
-#navbar ul li {
-    padding:  0.75rem;
-    margin: 0.25rem;
-}
-#showcase{
-    height: 45vh; 
-    color: #ffffff;
-    background-size: 30rem;
+    justify-content: center;
     align-items: center;
-    
+    min-height: 100vh;
 }
-img {
-    width: 350px;
-    margin-left: 500px;
+section header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
 }
-#showcase .showcase-content {
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+section header ul li button {
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section .main {
+    width: 580px;
     display: flex;
     flex-direction: column;
-    text-align: center; 
+    align-items: center;
     justify-content: center;
-    height: 80vh;
-    padding-top: 2rem;   
 }
-.btn {
+section .main .searchbox {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .searchbox .search {
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+section .main .searchbox .icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    padding-left: 38rem;
-    padding-right: 38rem;
-    padding-top: 2rem;
-    
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
 }
-.btn input[type=submit]{
-    background-color: white;
-    border: 1px solid rgb(0, 0, 0);
+section .main input[type=submit] {
+    background-color: #ccc;
+    border: 1px;
     border-radius: 4px;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
     margin: 11px 4px;
-    padding: 0 8px;
+    padding: 0 16px;
     line-height: 27px;
     height: 36px;
-    min-width: 80px;
+    min-width: 140px;
     text-align: center;
     cursor: pointer;
     user-select: none;
-
+    flex-shrink: 0;
 }
+section .main .tlacitko {
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+    text-align: center;
+}
+section .main .drak {
+    display: flex;
+}
+footer {
+    background-color: #ccc;
+    padding: 3px;
+    padding-bottom:1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.snih {
+    padding: 15px;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    display: flex;
+    
+}
+.flex {
+    display: flex;
+}
+.rizek {
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.brambor .snih.l {
+    text-align: right;
+}
+
+.taler{
+    padding-left: 2rem;
+}
+
+.nevim{
+    padding-right: 2rem;
+}
+
+.pivo{
+    justify-content: right;
+}
+.dropbtn {
+    background-color: #ccc;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropup content (Hidden by Default) */
+  .dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropup */
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropup links on hover */
+  .dropup-content a:hover {background-color: #ccc}
+  
+  /* Show the dropup menu on hover */
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+  .dropup:hover .dropbtn {
+    text-decoration: underline;
+  }
