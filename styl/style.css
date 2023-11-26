@@ -198,3 +198,72 @@ footer {
   .dropup:hover .dropbtn {
     text-decoration: underline;
   }
+.gas input[type=text] {
+width: 35%;
+padding: 9px 20px;
+text-align: left;
+border-radius: 6px;
+background-color: white;
+font-weight: 300;
+margin-top: 16px;
+border-radius: 2rem;
+color: black;
+height: 1.5rem;
+border: 0.1px solid rgb(124, 123, 123);
+margin-left: 92px;
+}
+.polstar input[type=text] {
+    width: 35%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
+    background-color: white;
+    font-weight: 300;
+    margin-top: 16px;
+    border-radius: 2rem;
+    color: black;
+    height: 1.5rem;
+    border: 0.1px solid rgb(124, 123, 123);
+
+}
+.rododendron input[type=text] {
+    width: 35%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
+    background-color: white;
+    font-weight: 300;
+    margin-top: 16px;
+    border-radius: 2rem;
+    color: black;
+    height: 1.5rem;
+    border: 0.1px solid rgb(124, 123, 123);
+    margin-left: 63px;
+}
+.reaper input[type=text] {
+    width: 35%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
+    background-color: white;
+    font-weight: 300;
+    margin-top: 16px;
+    border-radius: 2rem;
+    color: black;
+    height: 1.5rem;
+    border: 0.1px solid rgb(124, 123, 123);
+    margin-left: 85px;
+}
+.diediedie input[type=text] {
+    width: 35%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
+    background-color: white;
+    font-weight: 300;
+    margin-top: 16px;
+    border-radius: 2rem;
+    color: black;
+    height: 1.5rem;
+    border: 0.1px solid rgb(124, 123, 123);
+}
